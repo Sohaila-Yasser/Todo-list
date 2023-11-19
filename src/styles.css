@@ -1,0 +1,78 @@
+#each {
+  width: 28rem;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 9px 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  border-radius: 1px;
+  margin-top: 10rem;
+  text-align: center;
+  margin: auto;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.2);
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#all {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.6em;
+  box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.2);
+}
+#items {
+  margin: auto;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+body {
+  width: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcvpv_DYaw7IpOm3bw3WCZtnIwuAdYwTJmfw&usqp=CAU")
+    no-repeat center center/cover;
+  justify-content: center;
+  height: 100%;
+  padding-bottom: 20rem;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#list {
+  margin-top: 8rem;
+}
+#text {
+  color: white;
+  margin-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+#input {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  width: 25rem;
+  height: 3rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+#button {
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1.8em 3.7em rgba(3, 46, 87, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
